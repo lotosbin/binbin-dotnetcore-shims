@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCE7BC31-2CB4-49CF-80BE-873F0519FF17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{158F965C-59F9-43AD-9E6A-B5B4355A9A65}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "binbin-dotnetcore-shims", "src\binbin-dotnetcore-shims\binbin-dotnetcore-shims.xproj", "{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA0B9B2E-2EC2-4E96-A85C-DBD41576A4A9} = {DCE7BC31-2CB4-49CF-80BE-873F0519FF17}
+	EndGlobalSection
+EndGlobal
